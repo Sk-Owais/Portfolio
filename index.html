@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/694ce10b93.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/s-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+
+            </nav>
+            <div class="header-text">
+                <p>Node Js Developer</p>
+                <h1>Hi, I'm<span> Owais</span><br>Shaikh from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pexels-pavel-danilyuk-5496464.jpg">
+                </div>
+                <div class="about-col-2" id="about">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate and aspiring Node.js developer ready to make a mark in the digital realm. As a fresh
+                        talent in the world of web development, I bring an insatiable curiosity and a drive to create
+                        innovative and efficient solutions.</p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Node.js Knowledge</span><br>Grasp the fundamentals and asynchronous nature of
+                                Node.js.
+                            </li>
+                            <li><span>RESTful APIs<br></span>Create and use RESTful APIs for smooth communication.</li>
+                            <li><span>Basic Frontend Knowledge</span><br>Grasp HTML, CSS, and basic client-side
+                                JavaScript.
+                            </li>
+                            <li><span>Database Knowledge</span><br>Understand basics of database, like MySQL.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>IT Support Engineer</span><br>Ahmed Abdullah Garib Private Industrial Training
+                                Institute <br><small>June 2022 - May 2023</small></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science in Information Technology</span><br>Guru Nanak Khalsa College
+                                (Autonomous), Matunga<br><small>September 2018 - April 2022</small></li>
+                            <li><span>Higher Secondary School Certificate</span><br>Maharashtra State Board
+                                <br><small>July 2016 - June 2018</small>
+                            </li>
+                            <li><span>Secondary School Certificate</span><br>Maharashtra State Board
+                                <br><small>June 2015 - June 2016</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Back - end Development</h2>
+                    <p> With a solid foundation in Node.js, I'm enthusiastic about crafting responsive and scalable
+                        applications. While I'm in the early stages of my career, my passion for learning and
+                        problem-solving propels me to explore API development, database integration, and middleware
+                        implementation. I bring a fresh perspective, a hunger for knowledge, and a commitment to
+                        contributing to the success of projects.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>API Creation & Integration</h2>
+                    <p>An aspiring backend developer venturing into the dynamic realm of API creation. My journey is
+                        marked by a solid foundation in Node.js, and I'm excited to channel this knowledge into crafting
+                        robust and user-friendly RESTful APIs. Despite being a newcomer to the field, I bring a fresh
+                        perspective, a passion for innovation, and a commitment to mastering the intricacies of API
+                        development. I view challenges as opportunities for growth and problem-solving as a chance to
+                        refine my skills.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Real-time Web Application</h2>
+                    <p>A budding backend developer stepping into the realm of real-time web application development.
+                        With a foundational understanding of Node.js, my focus extends to leveraging this knowledge for
+                        crafting dynamic and responsive applications that thrive in real-time scenarios. Despite being
+                        in the early stages of my career, I bring a unique perspective, a fervor for staying abreast of
+                        emerging trends, and a commitment to mastering the intricacies of real-time web applications.
+                        <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Shop Sphere</h3>
+                        <p>The e-commerce website project aims to create a user-friendly and visually appealing platform
+                            that seamlessly connects buyers with a diverse range of products. The website will feature
+                            intuitive navigation, a responsive design for optimal viewing on various devices, and robust
+                            product categorization to enhance the shopping experience. Users will be able to easily
+                            browse through product listings, access detailed product information, and add items to their
+                            carts effortlessly.
+                        </p>
+                        <a href="https://github.com/Sk-Owais/Shop-Sphere" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Task Tackler</h3>
+                        <p>The To - Do List API project is a robust and user-friendly task management system that allows
+                            users to efficiently organize their tasks. Built on a RESTful architecture, the API supports
+                            essential CRUD operations, enabling users to add, retrieve, modify, and delete tasks
+                            seamlessly. It incorporates user authentication for secure access,
+                            ensuring that each user can only manipulate their own tasks.
+                        </p>
+                        <a href="https://github.com/Sk-Owais/TaskTackler" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Empty Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nulla cumque excepturi est!
+                            Saepe natus non, ad consequatur laboriosam deserunt quisquam exercitationem! Eos, esse
+                            quisquam minima odio enim quod sequi?
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-at"></i>shaikh.k.owais@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+918169714766</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/owais-shaikh-a5812317b" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sk-Owais" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/_iamsko_/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://stackoverflow.com/users/23085457/owais-shaikh" target="_blank"><i
+                                class="fa-brands fa-stack-overflow"></i></a>
+                    </div>
+                    <a href="images/Shaikh_Owais.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" placeholder="Your Name" name="Name" required>
+                        <input type="email" placeholder="Your Email" name="Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 | All rights reserved | Made with <i class="fa-solid fa-heart"></i> by Owais</p>
+        </div>
+    </div>
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links')
+        let tabcontents = document.getElementsByClassName('tab-contents')
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxUHBZmtO3KC5CjVAhfUKl-DOFPIWAb21AJjTnVCcO5-yC-X9s55RGpqwwIQi6ezms/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
