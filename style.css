@@ -180,6 +180,8 @@ nav ul li a:hover::after {
 .services-list div i {
     font-size: 50px;
     margin-bottom: 30px;
+    display: block;
+    padding: 0 80px ;
 }
 
 .services-list div h2 {
